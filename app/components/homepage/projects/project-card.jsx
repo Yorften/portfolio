@@ -1,5 +1,6 @@
 // @flow strict
 
+import Link from 'next/link';
 import * as React from 'react';
 
 function ProjectCard({ project }) {
@@ -61,6 +62,16 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
+          {project.code && (<div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Code:</span>
+            <Link target='_blank' href={project.code} className="text-cyan-400 hover:underline hover:text-pink-500">{' ' + project.code}</Link>
+            <span className="text-gray-400">,</span>
+          </div>)}
+          {project.demo && (<div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Demo:</span>
+            <Link target='_blank' href={project.demo} className="text-cyan-400 hover:underline hover:text-pink-500">{' ' + project.demo}</Link>
+            <span className="text-gray-400">,</span>
+          </div>)}
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
