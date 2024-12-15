@@ -1,8 +1,3 @@
-import ayla from "/public/image/ayla.jpg";
-import crefin from "/public/image/crefin.jpg";
-import realEstate from "/public/image/real-estate.jpg";
-import travel from "/public/image/travel.jpg";
-
 export const projectsData = [
   {
     id: 1,
@@ -20,7 +15,6 @@ export const projectsData = [
     role: "Full-Stack Developer",
     code: "https://github.com/Yorften/Anamcara",
     demo: "https://anamcara-front.vercel.app",
-    image: crefin,
   },
   {
     id: 2,
@@ -41,7 +35,6 @@ export const projectsData = [
     role: "Full Stack Developer",
     code: "",
     demo: "https://eco-spare-test.vercel.app/en",
-    image: travel,
   },
   {
     id: 3,
@@ -61,7 +54,6 @@ export const projectsData = [
     code: "https://github.com/Yorften/Citronix",
     role: "Backend Developer",
     demo: "",
-    image: realEstate,
   },
 ];
 

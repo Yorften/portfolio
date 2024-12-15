@@ -1,4 +1,5 @@
 // @flow strict
+"use client"
 
 import Link from 'next/link';
 import * as React from 'react';
@@ -64,12 +65,16 @@ function ProjectCard({ project }) {
           </div>
           {project.code && (<div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Code:</span>
-            <Link target='_blank' href={project.code} className="text-cyan-400 hover:underline hover:text-pink-500">{' ' + project.code}</Link>
+            <span className="text-cyan-400">{' '}
+            <Link target='_blank' href={project.code} className="hover:underline hover:text-pink-500">{project.code}</Link>
+            </span>
             <span className="text-gray-400">,</span>
           </div>)}
           {project.demo && (<div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Demo:</span>
-            <Link target='_blank' href={project.demo} className="text-cyan-400 hover:underline hover:text-pink-500">{' ' + project.demo}</Link>
+            <span className="text-cyan-400">{' '}
+            <Link target='_blank' href={project.demo} className="hover:underline hover:text-pink-500">{project.demo}</Link>
+            </span>
             <span className="text-gray-400">,</span>
           </div>)}
           <div><span className="text-gray-400">{`};`}</span></div>

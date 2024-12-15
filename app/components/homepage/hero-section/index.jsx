@@ -119,7 +119,7 @@ function HeroSection() {
               <div>
                 <span className='ml-4 lg:ml-8 mr-2 text-white'>name:</span>
                 <span className='text-gray-400'>{`'`}</span>
-                <span className='text-amber-300'>Abu Said</span>
+                <span className='text-amber-300'>{personalData.name}</span>
                 <span className='text-gray-400'>{`',`}</span>
               </div>
               <div className='ml-4 lg:ml-8 mr-2'>
@@ -131,17 +131,25 @@ function HeroSection() {
                 <span className='text-gray-400'>{"', '"}</span>
                 <span className='text-amber-300'>Redux</span>
                 <span className='text-gray-400'>{"', '"}</span>
-                <span className='text-amber-300'>Express</span>
+                <span className='text-amber-300'>Java</span>
                 <span className='text-gray-400'>{"', '"}</span>
-                <span className='text-amber-300'>NestJS</span>
+                <span className='text-amber-300'>Spring</span>
+                <span className='text-gray-400'>{"', '"}</span>
+                <span className='text-amber-300'>Php</span>
+                <span className='text-gray-400'>{"', '"}</span>
+                <span className='text-amber-300'>Laravel</span>
                 <span className='text-gray-400'>{"', '"}</span>
                 <span className='text-amber-300'>MySql</span>
                 <span className='text-gray-400'>{"', '"}</span>
-                <span className='text-amber-300'>MongoDB</span>
+                <span className='text-amber-300'>PostgreSQL</span>
                 <span className='text-gray-400'>{"', '"}</span>
                 <span className='text-amber-300'>Docker</span>
                 <span className='text-gray-400'>{"', '"}</span>
-                <span className='text-amber-300'>AWS</span>
+                <span className='text-amber-300'>Vercel</span>
+                <span className='text-gray-400'>{"', '"}</span>
+                <span className='text-amber-300'>Jenkins</span>
+                <span className='text-gray-400'>{"', '"}</span>
+                <span className='text-amber-300'>Kubernetes</span>
                 <span className='text-gray-400'>{"'],"}</span>
               </div>
               <div>
