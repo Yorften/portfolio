@@ -1,51 +1,69 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import ayla from "/public/image/ayla.jpg";
+import crefin from "/public/image/crefin.jpg";
+import realEstate from "/public/image/real-estate.jpg";
+import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Anamcara",
+    description:
+      "A web application linking to the Anamcara Discord server to automate the application process based on your discord server roles and track daily missions in the Lost Ark game.",
+    tools: [
+      "Laravel",
+      "React",
+      "React Redux",
+      "MySQL",
+      "Discord API",
+      "OAuth2",
+    ],
+    role: "Full-Stack Developer",
+    code: "https://github.com/Yorften/Anamcara",
+    demo: "https://anamcara-front.vercel.app",
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: "Internship project Ecospare",
+    description:
+      "I have reconstructed the EcoSpare.fr website, a platform specializing in the purchase, sale, dismantling, and repair of used industrial machines. I redeveloped the site using modern technologies to enhance performance, improve SEO, and boost user engagement. The new design ensures a seamless user experience and aligns with current web standards. The project involved optimizing the platform's structure for better search engine visibility and implementing user-focused features to support its business goals.",
+    tools: [
+      "NextJS",
+      "Tailwind CSS",
+      "Nodemailer",
+      "Prisma",
+      "TypeScript",
+      "PostgreSQL",
+      "Vercel",
+      "Vercel Blob",
+      "React Pdf",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "https://eco-spare-test.vercel.app/en",
+    image: travel,
+  },
+  {
+    id: 3,
+    name: "Farm Management API",
+    description:
+      "Citronix, an API designed to streamline farm management for lemon producers. This application helps farmers track farms, fields, trees, harvests, and sales, ensuring optimized productivity and seamless operations.",
+    tools: [
+      "Java 8",
+      "Spring Boot",
+      "JUnit & Mockito",
+      "Liquibase",
+      "PostgreSQL",
+      "H2",
+      "SwaggerUI",
+      "Github Actions",
+    ],
+    code: "https://github.com/Yorften/Citronix",
+    role: "Backend Developer",
+    demo: "",
+    image: realEstate,
+  },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below

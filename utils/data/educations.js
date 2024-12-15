@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Web and mobile development Java/Angular",
+    duration: "2023 - Present",
+    institution: "YouCode Safi - UM6P",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor of Mathematics and Computer Science",
+    duration: "2018 - 2022",
+    institution: "Ibn Zohr University - Agadir",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+    title: "High School diploma in Mathematical Sciences",
+    duration: "2017 - 2018",
+    institution: "Al Maarifa High School",
+  },
+];
